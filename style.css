@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header{ 
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoimg{
+    height: 160px;
+    width: 160px;
+}
+
+.links{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    transition: all 1s;
+}
+
+.links:hover{
+    color: blue;
+    font-size: 35px;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.intro{
+    padding: 30px;
+    font-size: 30px;
+}
+
+.intro_head{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.intro_p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.download{
+    text-decoration: none;
+    background-color: rgb(10, 208, 235);
+    color: rgb(16, 42, 236);
+    padding: 10xp;
+    border-radius: 5xp;
+}
+
+.intro_img{
+    position:relative
+}
+.img1{
+    width: 60%;
+    right: 60px;
+    top: 40px;
+    position:absolute
+}
+
+.img2{
+    width: 100%;
+}
